@@ -1,2 +1,3 @@
 # Holiday Travel Vehicles
-My Java project for ITCS382 Software Design and Modeling.
+Name: Chaiwat Kor-u-thaisahian 
+ID: 6688050
