@@ -4,7 +4,7 @@ public class Customer {
     private String address;
     private String phone;
 
-    // Constructor
+
     public Customer(String customerID, String name, String address, String phone) {
         this.customerID = customerID;
         this.name = name;
@@ -27,4 +27,5 @@ public class Customer {
         return "Customer [ID=" + customerID + ", Name=" + name +
                ", Address=" + address + ", Phone=" + phone + "]";
     }
+
 }
