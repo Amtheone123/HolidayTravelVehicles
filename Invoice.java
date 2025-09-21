@@ -9,6 +9,7 @@ public class Invoice {
     private double licenseFee;
     private String signature;
 
+    
     private Customer customer;
     private Salesperson salesperson;
     private Vehicle vehicle;
@@ -34,8 +35,10 @@ public class Invoice {
     @Override
     public String toString() {
         return "Invoice [ID=" + invoiceID + ", Date=" + date +
-               ", Total=" + totalPrice + ", Customer=" + customer.getName() +
+               ", Total=" + totalPrice +
+               ", Customer=" + customer.getName() +
                ", Salesperson=" + salesperson.getName() +
-               ", Vehicle=" + vehicle.getModel() + "]";
+               ", Vehicle=" + vehicle.getModel() +
+               ", Options=" + options + "]";
     }
 }
