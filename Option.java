@@ -9,12 +9,19 @@ public class Option {
         this.optionCode = optionCode;
     }
 
-    public double getPrice() { return price; }
-    public String getDescription() { return description; }
-    public String getOptionCode() { return optionCode; }
+    public double getPrice() { 
+        return price; 
+    }
+    public String getDescription() { 
+        return description; 
+    }
+    public String getOptionCode() { 
+        return optionCode; 
+    }
 
     @Override
     public String toString() {
         return "Option [Code=" + optionCode + ", Description=" + description + ", Price=" + price + "]";
     }
 }
+
