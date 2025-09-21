@@ -15,12 +15,24 @@ public class Vehicle {
         this.manufacturer = manufacturer;
     }
 
-    public String getSerialNumber() { return serialNumber; }
-    public double getBaseCost() { return baseCost; }
-    public int getYear() { return year; }
-    public String getName() { return name; }
-    public String getModel() { return model; }
-    public String getManufacturer() { return manufacturer; }
+    public String getSerialNumber() { 
+        return serialNumber; 
+    }
+    public double getBaseCost() { 
+        return baseCost; 
+    }
+    public int getYear() { 
+        return year; 
+    }
+    public String getName() { 
+        return name; 
+    }
+    public String getModel() { 
+        return model; 
+    }
+    public String getManufacturer() { 
+        return manufacturer; 
+    }
 
     @Override
     public String toString() {
@@ -29,3 +41,4 @@ public class Vehicle {
                ", Model=" + model + ", Manufacturer=" + manufacturer + "]";
     }
 }
+
